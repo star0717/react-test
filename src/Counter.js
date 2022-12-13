@@ -27,7 +27,7 @@ const Counter = () => {
       {/* <h1>현재 카운터 값은 [ {value} ]입니다</h1>
       <button onClick={() => setValue(value + 1)}>+1</button>
       <button onClick={() => setValue(value - 1)}>-1</button> */}
-
+      {/* commit test */}
       <h1>Hello Byeol :)</h1>
       <div>
         <input placeholder="name" value={name} onChange={onChangeName}></input>
