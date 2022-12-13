@@ -1,11 +1,15 @@
 import React from "react";
-import Counter from "./Counter";
+import ContextEx from "./ContextEx";
+import EffectEx from "./EffectEx";
+import ReducerEx from "./ReducerEx";
 
 const App = () => {
   return (
     // 무조건 빈태그로 감싸야됨
     <>
-      <Counter />
+      {/* <EffectEx /> */}
+      {/* <ContextEx /> */}
+      <ReducerEx />
     </>
   );
 };
