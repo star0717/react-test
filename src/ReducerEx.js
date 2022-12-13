@@ -11,9 +11,12 @@ function reducer(state, action) {
       return state;
   }
 }
+// 함수를 설정함
 
 const ReducerEx = () => {
   const [state, dispatch] = useReducer(reducer, { value: 0 });
+  //현재 값
+  //dispatch는 action을 말함
   return (
     // 무조건 빈태그로 감싸야됨
     <>
@@ -23,5 +26,6 @@ const ReducerEx = () => {
     </>
   );
 };
+//commit test
 
 export default ReducerEx;
