@@ -26,8 +26,5 @@ const ReducerEx = () => {
     </>
   );
 };
-//commit test
-//second test
-//window test
 
 export default ReducerEx;
